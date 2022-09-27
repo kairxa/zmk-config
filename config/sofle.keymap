@@ -27,13 +27,17 @@
             compatible = "zmk,behavior-macro";
             label = "new_macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp LEFT>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LEFT>;
         };
         lctrl_right: lctrl_right {
             compatible = "zmk,behavior-macro";
             label = "new_macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp RIGHT>;
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp RIGHT>;
         };
     };
 
