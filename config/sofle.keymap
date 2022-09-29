@@ -89,11 +89,11 @@
 
         extra_game_layer {
             bindings = <
- &kp F13  &kp F14          &kp F21          &kp F22          &kp F23         &kp F24                  &trans  &trans  &trans  &trans  &trans  &trans
- &kp F15  &kp F16  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMLOCK                  &trans  &trans  &trans  &trans  &trans  &trans
- &kp F17  &kp F18        &kp KP_N4        &kp KP_N5        &kp KP_N6     &kp KP_PLUS                  &trans  &trans  &trans  &trans  &trans  &trans
- &kp F19  &kp F20        &kp KP_N1        &kp KP_N2        &kp KP_N3    &kp KP_MINUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                         &kp KP_N0        &kp KP_N0       &kp KP_DOT          &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &kp ESC  &kp F19          &kp F20          &kp F21          &kp F22         &kp F23                   &trans  &trans  &trans  &trans  &trans  &trans
+ &kp F13  &kp F14  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMLOCK                   &trans  &trans  &trans  &trans  &trans  &trans
+ &kp F15  &kp F16        &kp KP_N4        &kp KP_N5        &kp KP_N6     &kp KP_PLUS                   &trans  &trans  &trans  &trans  &trans  &trans
+ &kp F17  &kp F18        &kp KP_N1        &kp KP_N2        &kp KP_N3    &kp KP_MINUS   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                         &kp KP_N0        &kp KP_N0       &kp KP_DOT          &trans  &kp F24  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
